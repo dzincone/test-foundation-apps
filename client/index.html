@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en" ng-app="application">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation for Apps</title>
+    <link href="./assets/css/app.css" rel="stylesheet" type="text/css">
+    <script src="./assets/js/foundation.js"></script>
+    <script src="./assets/js/templates.js"></script>
+    <script src="./assets/js/routes.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <base href="/">
+  </head>
+  <body>
+    <body class="frame">
+  <div class="large-12 group">
+    <div class="small-12 block">
+      <ul class="primary condense menu-bar">
+        <li><a><strong>Foundation for Apps</strong></a></li>
+        <li ui-sref-active="my-active-class"><a ui-sref="about">About me</a></li>
+        <li ui-sref-active="my-active-class"><a ui-sref="projects">Projects</a></li>
+      </ul>
+    </div>
+  </div>
+      <div class="align-spaced grid-block">
+        <div class="align-center small-6 grid-block">
+          <a class="frontModal button large" href="#" zf-open="advancedModal">Open modal</a>
+          <div zf-modal="" id="advancedModal" class="collapse align-top">
+            <div class="grid-block vertical">
+              <div class="primary title-bar">
+                <div class="center title">Title Bar</div>
+                <span zf-close="" class="left"><a>Close</a></span>
+                <span zf-close="" class="right"><a>Done</a></span>
+              </div>
+              <div class="grid-content padding" style="padding-top: 1rem;">
+                <p>
+                  <img src="http://uniformcritics.com/wp-content/uploads/2013/05/Peterson-Vikings-NFL-Nike-Elite-51-Uniform-Glove_19491-675x380.jpg">
+                </p>
+                <a zf-close="" class="button">OK</a>
+                <a zf-close="" class="button">Cancel</a>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="small-6 grid-block">
+            <zf-accordion auto-open="false" collapsible="true" multi-open="true">
+              <zf-accordion-item title="Auto Open">
+                Auto open opens the first tab on render.
+              </zf-accordion-item>
+              <zf-accordion-item title="Collapsible">
+                Collapsible allows toggable tabs. Click on a tab to open or close it.
+              </zf-accordion-item>
+              <zf-accordion-item title="Multi Open">
+                Multi open allows for multiple tabs to be open at once.
+              </zf-accordion-item>
+              </zf-accordion>
+          </div>
+        </div>
+      <!-- Content Block -->
+    <div class="align-spaced grid-block">
+    <div class="align-center grid-block">
+      <div class="dark card">
+        <img src="http://placekitten.com/g/400/200">
+        <div class="card-divider">
+          This is content
+        </div>
+        <div class="card-section">
+          <h4>The Basics: Group and Block</h4>
+          <p>The most basic elements in the Foundation for Apps grid are the Group and Block.</p>
+        </div>
+      </div>
+    </div>
+    <div class="align-center grid-block">
+      <div class="dark card">
+        <img src="http://placekitten.com/g/400/200">
+        <div class="card-divider">
+          This is content
+        </div>
+        <div class="card-section">
+          <h4>The Basics: Group and Block</h4>
+          <p>The most basic elements in the Foundation for Apps grid are the Group and Block.</p>
+        </div>
+      </div>
+    </div>
+      <div class="align-center grid-block">
+        <div class="dark card">
+          <img src="http://placekitten.com/g/400/200">
+          <div class="card-divider">
+            This is content
+          </div>
+          <div class="card-section">
+            <h4>The Basics: Group and Block</h4>
+            <p>The most basic elements in the Foundation for Apps grid are the Group and Block.</p>
+          </div>
+        </div>
+      </div>
+        <div class="align-center grid-block">
+          <div class="dark card">
+            <img src="http://placekitten.com/g/400/200">
+            <div class="card-divider">
+              This is content
+            </div>
+            <div class="card-section">
+              <h4>The Basics: Group and Block</h4>
+              <p>The most basic elements in the Foundation for Apps grid are the Group and Block.</p>
+            </div>
+          </div>
+        </div>
+    <!-- Content Block -->
+  </div>
+    <div class="small-4 block">
+      <div zf-tabs="">
+<div zf-tab="" title="Tab 1">
+Tab content 1
+</div>
+<div zf-tab="" title="Tab 2">
+Tab content 2
+</div>
+<div zf-tab="" title="Tab 3">
+Tab content 3
+</div>
+</div>
+      <!-- Content Block -->
+    </div>
+    <div class="small-4 block">
+      <!-- Content Block -->
+    </div>
+    <!-- <div class="grid-frame">
+      <div class="small-8 group">
+      <div class="grid-block">
+            <ul class="primary condense menu-bar">
+              <li><a><strong>Foundation for Apps</strong></a></li>
+              <li ui-sref-active="my-active-class"><a ui-sref="about">About me</a></li>
+              <li ui-sref-active="my-active-class"><a ui-sref="projects">Projects</a></li>
+            </ul>
+      </div>
+    </div>
+    <div class="large-12 group">
+      <div class="grid-block">
+        <h1>Hi</h1>
+      </div>
+    </div> -->
+  </body>
+</html>
